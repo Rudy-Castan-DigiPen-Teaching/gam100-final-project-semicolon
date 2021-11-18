@@ -1,35 +1,35 @@
 # gam100 doodle starter project
 
-# doodle framework
+## doodle framework
 main.cpp - 6
-# if
+## if
 alcohol.h - 36
-# switch
+## switch
 main.cpp - 47
-# while
+## while
 third_floor_monster.h - 108
-# for
+## for
 main.cpp - 62
-# for range
+## for range
 
-# function
+## function
 
-# class
+## class
 player.h - 17
-# reference
+## reference
 
-# int 
+## int 
 screen.h - 8
-# double
+## double
 sword.h - 20
-# bool
+## bool
 first_floor_monster.h - 38
-# string
+## string
 
-# vector
+## vector
 main.cpp- 33
-# constexpr
+## constexpr
 main.cpp - 35
-# array
+## array
 player_key.h - 10~58
 
