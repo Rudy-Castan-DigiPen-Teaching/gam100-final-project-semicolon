@@ -9,9 +9,9 @@ main.cpp - 47
 ## while
 third_floor_monster.h - 108
 ## for
-main.cpp - 62
+main.cpp - 37
 ## for range
-
+main.cpp - 67
 ## function
 
 ## class
