@@ -1,3 +1,8 @@
+//NAME : Semicolon
+//ASSIGNMENT : Game Snapshot
+//COURSE : CS120
+//TERM & YEAR : Fall 2021
+
 #pragma once
 #include <doodle/doodle.hpp>
 using namespace doodle;
