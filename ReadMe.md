@@ -12,12 +12,8 @@ third_floor_monster.h - 108
 main.cpp - 37
 ## for range
 main.cpp - 67
-## function
-
 ## class
 player.h - 17
-## reference
-
 ## int 
 screen.h - 8
 ## double
