@@ -24,8 +24,6 @@ screen.h - 8
 sword.h - 20
 ## bool
 first_floor_monster.h - 38
-## string
-
 ## vector
 main.cpp- 33
 ## constexpr
