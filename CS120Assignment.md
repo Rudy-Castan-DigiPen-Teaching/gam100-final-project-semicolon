@@ -19,22 +19,22 @@ Create a **`CS120ReadMe.md`** markdown file that defines the following.
 
 ## Grading Rubric
 
-- [ ] [**core**] Used C++ and `doodle` framework to make a game prototype
-- [ ] [**core**] Make good use of if statements
-- [ ] [**core**] Make good use of switch statements
-- [ ] [**core**] Make good use of while statements
-- [ ] [**core**] Make good use of for statements
-- [ ] [**core**] Make good use of for range statements
-- [ ] [**core**] Make good use of functions
-- [ ] [**core**] Make good use of `class`/`struct`
-- [ ] [**core**] Make good use of References
-- [ ] [**core**] Code is reasonably organized across multiple files, so that there are no big monolithic source code files.
+- [x] [**core**] Used C++ and `doodle` framework to make a game prototype
+- [x] [**core**] Make good use of if statements
+- [x] [**core**] Make good use of switch statements
+- [x] [**core**] Make good use of while statements
+- [x] [**core**] Make good use of for statements
+- [x] [**core**] Make good use of for range statements
+- [x] [**core**] Make good use of functions
+- [x] [**core**] Make good use of `class`/`struct`
+- [x] [**core**] Make good use of References
+- [x] [**core**] Code is reasonably organized across multiple files, so that there are no big monolithic source code files.
 - [ ] Print only debug info via `cout`
-- [ ] Make good use of `int`
-- [ ] Make good use of `double`
-- [ ] Make good use of `bool`
-- [ ] Make good use of `std::string`
-- [ ] Make good use of `std::vector`
+- [x] Make good use of `int`
+- [x] Make good use of `double`
+- [x] Make good use of `bool`
+- [x] Make good use of `std::string`
+- [x] Make good use of `std::vector`
 - [ ] All variables are initialized when **defined**.
 - [ ] If using shared global variables then they are defined in a header file with the `inline` keyword.
 - [ ] Constants are defined as `constexpr` whenever possible
