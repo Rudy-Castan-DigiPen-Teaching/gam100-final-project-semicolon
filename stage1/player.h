@@ -37,6 +37,8 @@ public:
     double playerMP_height{ -250.0 };
     double playerMP_bottom = playerMP_top + playerMP_height;
     double playerMP_right = playerMP_left + playerMP_width;
+    
+    double& anotoer_PlayerMPleft = playerMP_left;
 
     void draw_player()
     {
@@ -82,7 +84,7 @@ public:
         set_font_size(25);
         draw_text("MP", -30, 270);
         set_fill_color(HexColor{ 0xA0F1FF });
-        draw_rectangle(playerMP_left, playerMP_top, playerMP_width, playerMP_bottom);
+        draw_rectangle(anotoer_PlayerMPleft, playerMP_top, playerMP_width, playerMP_bottom);
         pop_settings();
 
         //The code that charges up when the mana is used up.
