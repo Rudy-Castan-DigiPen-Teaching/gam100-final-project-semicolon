@@ -1,3 +1,7 @@
+//NAME : Semicolon
+//ASSIGNMENT : Game Snapshot
+//COURSE : CS120
+//TERM & YEAR : Fall 2021
 
 #include <doodle/doodle.hpp>
 #include <vector>
