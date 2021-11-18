@@ -10,7 +10,7 @@
 
 #include "doors.h"
 #include "player_key.h"
-
+#include "Screen.h"
 using namespace doodle;
 using namespace std;
 
