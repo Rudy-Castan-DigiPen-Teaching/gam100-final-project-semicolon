@@ -44,18 +44,18 @@ Create a **`CS120ReadMe.md`** markdown file that defines the following.
 - [ ] Created and used your own `namespace`
 - [ ] All long functions are broken down into helper functions
 - [ ] Uses default arguments rather than function overloads
-- [ ] Made one more `constexpr` functions
+- [x] Made one more `constexpr` functions
 - [ ] If functions are defined in header files then they are marked as `inline` or `constexpr`
 - [ ] Made use of [structured bindings](https://en.cppreference.com/w/cpp/language/structured_binding) one or more times
 - [ ] Make good use of `enum` types
 - [ ] Window title contains team name
-- [ ] All source files compile without warnings and without errors.
+- [x] All source files compile without warnings and without errors.
 - [ ] Warning level 4 is set and treat warnings as errors is set.
-- [ ] Correct files submitted. No unnecessary files submitted.
-- [ ] **All** Source Code has a proper header comment: Name, Assignment Name, Course Number, Term & Year.
-- [ ] Followed the appropriate Code Quality Guidelines and Code Style Guidelines.
-- [ ] Created a properly filled out `CS120ReadMe.md` file
-- [ ] All requirements that are completed are checked off here by replacing the `[ ]` with `[x]`
+- [x] Correct files submitted. No unnecessary files submitted.
+- [x] **All** Source Code has a proper header comment: Name, Assignment Name, Course Number, Term & Year.
+- [x] Followed the appropriate Code Quality Guidelines and Code Style Guidelines.
+- [x] Created a properly filled out `CS120ReadMe.md` file
+- [x] All requirements that are completed are checked off here by replacing the `[ ]` with `[x]`
 
 Scores for Exercises will be given as the following:
 
