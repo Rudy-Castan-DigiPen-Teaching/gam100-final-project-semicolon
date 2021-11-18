@@ -28,7 +28,7 @@ using namespace doodle;
 
 int main(void)
 {
-    create_window();
+    create_window("Semicolon");
 
     vector<Rain> RAIN;
 
