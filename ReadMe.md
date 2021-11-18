@@ -110,6 +110,11 @@ for (auto& i : RAIN)
      i.draw_rain();
 }
 ~~~
+## function
+rain.h - 95
+~~~
+void move_rain(void)
+~~~
 ## class
 doors.h - 10~29
 ~~~
@@ -133,6 +138,11 @@ public:
     }
 };
 first_door first;
+~~~
+## reference
+player.h - 41
+~~~
+double& anotoer_PlayerMPleft = playerMP_left;
 ~~~
 ## int 
 screen.h - 8
