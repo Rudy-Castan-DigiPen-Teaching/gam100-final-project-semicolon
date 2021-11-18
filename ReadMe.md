@@ -234,3 +234,11 @@ void on_key_released(KeyboardButtons button)
 }
 ~~~
 
+## Section describing anything incomplete about the assignment
+
+The standard of the core was met. However, several other requirements were not met.
+Of course, we tried to match it, but if we code prematurely, errors occur in other code, so we tried our best.
+
+## Section describing something you’re proud of about the assignment
+I'm proud of the code in part player_key.h. Array is the code that I don't understand more than vector in code. So, although it may be a simple code to others, it is a code that I am proud of.
+
