@@ -33,7 +33,7 @@ Create a **`CS120ReadMe.md`** markdown file that defines the following.
 - [x] Make good use of `int`
 - [x] Make good use of `double`
 - [x] Make good use of `bool`
-- [x] Make good use of `std::string`
+- [ ] Make good use of `std::string`
 - [x] Make good use of `std::vector`
 - [ ] All variables are initialized when **defined**.
 - [ ] If using shared global variables then they are defined in a header file with the `inline` keyword.
@@ -48,7 +48,7 @@ Create a **`CS120ReadMe.md`** markdown file that defines the following.
 - [ ] If functions are defined in header files then they are marked as `inline` or `constexpr`
 - [ ] Made use of [structured bindings](https://en.cppreference.com/w/cpp/language/structured_binding) one or more times
 - [ ] Make good use of `enum` types
-- [ ] Window title contains team name
+- [x] Window title contains team name
 - [x] All source files compile without warnings and without errors.
 - [ ] Warning level 4 is set and treat warnings as errors is set.
 - [x] Correct files submitted. No unnecessary files submitted.
