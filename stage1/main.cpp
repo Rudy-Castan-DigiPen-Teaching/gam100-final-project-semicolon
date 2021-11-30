@@ -4,7 +4,8 @@
 
 //screen
 #include "Screen.h"
-
+//game manu
+#include "game_manu.h"
 //Stage_1
 #include "background.h"
 #include "doors.h"
@@ -59,6 +60,10 @@ int main(void)
 
         switch (current_scene)
         {
+        case 0:
+            Main.start_botton();
+            Main.how_to_play_botton();
+            break;
         case 1:
             //background
             background.draw_stage1();
