@@ -30,6 +30,9 @@
 #include "alcohol.h"
 #include "rain.h"
 
+//screen
+#include "Game Menu.h"
+
 using namespace doodle;
 
 int main(void)
@@ -59,6 +62,10 @@ int main(void)
 
         switch (current_scene)
         {
+        case 0:
+            Game_menu.start_botton();
+            Game_menu.how_to_play_botton();
+            break;
         case 1:
             //background
             draw_image(background_stage1, -700, -330, 1400, 700);
@@ -143,8 +150,8 @@ int main(void)
             vaccine.draw_vaccine();
             break;
         case 3:
-
             draw_text("Game Over", -200.0, -50.0);
+            Game_menu.Game_Over();
             break;
         case 4:
             draw_text("Game Win!!", -200.0, -50.0);
