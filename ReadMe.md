@@ -22,3 +22,5 @@ We made ourself all of game design and assets.
 Hyunjun Lee is producer and programmer.
 Geumbi Yeo is design and audio lead.
 Dawoon Jung is programming assistant.
+
+All content © 2021 DigiPen (USA) Corporation, all rights reserved.
