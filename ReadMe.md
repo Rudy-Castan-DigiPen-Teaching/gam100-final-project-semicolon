@@ -19,6 +19,10 @@ And you can jump by pushing "SPACE BAR".
 We have cheating that you can keep to prese SPACE BAR, then the game character keep flying.
 We made ourself all of game design and assets.
 
+Hyunjun Lee is producer and programmer
+Geumbi Yeo is design and audio lead
+Dawoon Jung is programming assistant
+
 # gam100 doodle starter project
 
 ## doodle framework
