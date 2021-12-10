@@ -1,26 +1,88 @@
 //NAME : Semicolon
-//ASSIGNMENT : Game Snapshot
+
+//ASSIGNMENT : Game Complete
+
 //COURSE : CS120
+
 //TERM & YEAR : Fall 2021
 
--Game Name: <2002>
--High Concept: <Virus field game>
--Team Name: <Semicolon>
--Team members: Hyunjun Lee(hyunjun.lee), Geumbi Yeo(geumbi.Yeo), Dawoon Jung(dawoon.jung)
+# core
 
-Course: GAM100F21
-Instructors: Rudy Castan
+## Made good use of exceptions
 
-If you want to download, you enter Github, and find the team Semicolon, and push "download zip" botton.
-You can push keyboard "W","A","S","D","SPACE BAR","J","K","L".
-You can move by pushing "W","A","S","D"
-You can use charcter's skill by pushing "J","K","L"
-And you can jump by pushing "SPACE BAR".
-We have cheating that you can keep to prese SPACE BAR, then the game character keep flying.
-We made ourself all of game design and assets.
+player.h (191~205)
 
-Hyunjun Lee is producer and programmer.
-Geumbi Yeo is design and audio lead.
-Dawoon Jung is programming assistant.
+~~~
+        if (playerHP_width > 200.0)
+        {
+            try
+            {
+                if (playerHP_width < 300)
+                {
+                    throw playerHP_width + 300.0;
+                }
+                cout << "Players can still fight!!" << endl;
+            }
+            catch (double e)
+            {
+                cout << e << "player will die!!" << endl;
+            }
+        }
 
-All content © 2021 DigiPen (USA) Corporation, all rights reserved.
+~~~
+
+##  Made good use of File IO with the ifstream and ofstream types
+
+player.h (207 ~ 225)
+
+~~~
+        string  name;
+        fstream myFile;
+        if (playerHP_width > 50.0)
+        {
+            if (playerHP_width < 100.0)
+            {
+
+                myFile.open("asset/game.txt");
+                    if (myFile.is_open())
+                    {
+                        string line;
+                        while (getline(myFile, line))
+                        {
+                            cout << line << endl;
+                        }
+                        myFile.close();
+                    }
+            }
+        }
+~~~
+
+## Made good use of std::map and/or std::unordered_map
+
+player.h(228 ~ 243)
+
+~~~
+        if (playerHP_width > 0.0)
+        {
+            if (playerHP_width < 50.0)
+            {
+                unordered_map<double, string> HP;
+                HP.emplace(1, "HP danger");
+                HP.emplace(2, "HP very dagner");
+                HP.emplace(3, "soon die...");
+
+                for (const auto& hp : HP)
+                {
+                    cout << hp.first << " " << hp.second << " " << endl;
+                }
+            }
+        }
+    }
+
+~~~
+
+# Section describing something you're proud of about the assignment
+
+Of course it should be done, but I'm proud to have done this core.
+When I did the cs120 exercise, I did not understand what it was and coded it.
+But through this task, I started to understand little by little.
